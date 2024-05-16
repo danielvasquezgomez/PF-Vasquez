@@ -67,6 +67,9 @@ main{
 .img-somos{
     position: relative;
     display: inline-block;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
 }
 
 .text-vision-mision{
@@ -76,23 +79,23 @@ main{
 }
 
 .vision{
-    background-color: $color-empresa-1;
     color: $color-fondo;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     border: 5px solid $color-contraste;
+    background-color: $color-empresa-1;  
 }
 
 .mision{
-    background-color: $color-empresa-2;
     color: $color-fondo;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     border: 5px solid $color-contraste;
+    background-color: $color-empresa-2;   
 }
 
 .vision-mision{

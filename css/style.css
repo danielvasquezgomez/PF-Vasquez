@@ -26,6 +26,12 @@ footer {
 
 /*estilos de index*/
 /*carousel*/
+.carousel {
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
 .carousel-caption {
   display: flex;
   justify-content: center;
@@ -54,6 +60,10 @@ section {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   border: 5px solid white;
   background-color: #042449;
+  transition: background-color 0.3s;
+}
+.contenedor-texto:hover {
+  background-color: #B24343;
 }
 .contenedor-texto h1 {
   color: white;
@@ -139,6 +149,9 @@ main div ul {
 .img-somos {
   position: relative;
   display: inline-block;
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
 }
 
 .text-vision-mision {
@@ -148,23 +161,23 @@ main div ul {
 }
 
 .vision {
-  background-color: #042449;
   color: #EDEDED;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   border: 5px solid white;
+  background-color: #042449;
 }
 
 .mision {
-  background-color: #B24343;
   color: #EDEDED;
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
   border: 5px solid white;
+  background-color: #B24343;
 }
 
 .vision-mision {
@@ -188,12 +201,16 @@ main div ul {
   text-align: center;
   width: calc(100% - 40px);
   margin-bottom: 20px;
+  transition: opacity 0.3s;
 }
 .servicios-articulos img {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+}
+.servicios-articulos:hover img {
+  opacity: 0.7;
 }
 
 .serv-tit {
@@ -223,12 +240,16 @@ main div ul {
   text-align: center;
   width: calc(100% - 40px);
   margin-bottom: 20px;
+  transition: opacity 0.3s;
 }
 .servicios-articulos img {
   border-radius: 10px;
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+}
+.servicios-articulos:hover img {
+  opacity: 0.7;
 }
 
 .arti-tit {
@@ -247,6 +268,10 @@ main div ul {
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+.boton-mas-articulo:hover {
+  background-color: rgba(4, 36, 73, 0.1843137255);
 }
 
 /*estilos de contacto*/
@@ -328,18 +353,29 @@ h3 {
 /*mq*/
 /*mq tablet*/
 @media screen and (min-width: 600px) {
+  .carousel {
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+  }
   .carousel-caption .tit-carousel {
-    font-size: 45px;
+    font-size: 35px;
   }
   .descripcion {
     display: block;
+  }
+  .img-cont {
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
   }
   .text-vision-mision {
     flex-direction: row;
   }
   .cuadro-text {
     flex: 1;
-    margin-right: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 0;
   }
   main div ul {
@@ -362,8 +398,18 @@ h3 {
 }
 /*mq desktop*/
 @media screen and (min-width: 1024px) {
+  .carousel {
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+  }
   .carousel-caption .tit-carousel {
-    font-size: 65px;
+    font-size: 50px;
+  }
+  .img-cont {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
   }
   main div ul {
     font-size: 30px;

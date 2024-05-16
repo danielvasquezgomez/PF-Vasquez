@@ -4,9 +4,15 @@
 @media screen and (min-width:600px){
 
     //html index
+    .carousel{
+        width: 100%;
+        max-height: 400px;
+        overflow: hidden;
+    }
+
     .carousel-caption{
         .tit-carousel {
-            font-size: 45px;
+            font-size: 35px;
         }
     }
 
@@ -14,14 +20,22 @@
         display: block;
     }
 
-    //html nosotros   
+    //html nosotros
+    
+    .img-cont{
+        width: 100%;
+        max-height: 200px;
+        overflow: hidden;
+    }
+
     .text-vision-mision{
         flex-direction: row; 
     }
 
     .cuadro-text{
         flex: 1;
-        margin-right: 1px;
+        margin-right: 10px;
+        margin-left: 10px;
         margin-bottom: 0;
    }
    
@@ -61,14 +75,27 @@
 @media screen and (min-width:1024px){
    
     //html index*
+    .carousel{
+        width: 100%;
+        max-height: 450px;
+        overflow: hidden;
+    }
+
     .carousel-caption{
         .tit-carousel{
-            font-size: 65px;
+            font-size: 50px;
         
         }
     }
 
     //html nosotros
+
+    .img-cont{
+        width: 100%;
+        max-height: 250px; 
+        overflow: hidden;
+    }
+
     main{
         div{
             ul{
