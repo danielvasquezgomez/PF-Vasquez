@@ -1,0 +1,28 @@
+//todos los estilos para el html blog
+
+//import variables
+@import "../utilidades/variables";
+
+/*estilos de blog*/
+
+//mixin importado a este scss para mantener el orden en css
+@import "../utilidades/mixin";
+
+
+.arti-tit {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.arti {
+    display: none;
+}  
+
+.boton-mas-articulo{
+    cursor: pointer;
+    color: black;
+    background-color: $color-fondo;
+    border: none;
+    border-radius: 5px; 
+    padding: 5px 10px;
+}

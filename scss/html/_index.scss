@@ -1,0 +1,53 @@
+//todos los estilos para el html index (pagina inicio)
+
+//import variables
+@import "../utilidades/variables";
+
+/*estilos de index*/
+/*carousel*/
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;    
+}
+
+/*section*/
+section{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.descripcion{
+    text-align: justify;
+}
+
+.contenedor-texto {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); 
+    border: 5px solid $color-contraste;
+    background-color: $color-empresa-1; 
+    h2{
+        color: $color-contraste;
+    }
+}
+
+.text-clientes{
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.cont-img-clientes{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.clientes{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

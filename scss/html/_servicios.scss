@@ -1,0 +1,21 @@
+//todos los estilos para el html servicios
+
+//import variables
+@import "../utilidades/variables";
+
+/*estilos de servicios*/
+
+//mixin importado a este scss para mantener el orden en css
+@import "../utilidades/mixin";
+
+
+.serv-tit {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.servs {
+    text-align: justify;
+    margin-bottom: 15px;
+}   
+    
