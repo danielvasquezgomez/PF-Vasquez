@@ -5,9 +5,13 @@
 
     //html index
     .carousel-caption{
-        h1{
+        .tit-carousel {
             font-size: 45px;
         }
+    }
+
+    .descripcion{
+        display: block;
     }
 
     //html nosotros   
@@ -58,7 +62,7 @@
    
     //html index*
     .carousel-caption{
-        h1{
+        .tit-carousel{
             font-size: 65px;
         
         }

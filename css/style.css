@@ -32,6 +32,9 @@ footer {
   align-items: center;
   height: 100%;
 }
+.carousel-caption .tit-carousel {
+  font-size: 25px;
+}
 
 /*section*/
 section {
@@ -42,6 +45,7 @@ section {
 
 .descripcion {
   text-align: justify;
+  display: none;
 }
 
 .contenedor-texto {
@@ -51,7 +55,7 @@ section {
   border: 5px solid white;
   background-color: #042449;
 }
-.contenedor-texto h2 {
+.contenedor-texto h1 {
   color: white;
 }
 
@@ -324,8 +328,11 @@ h3 {
 /*mq*/
 /*mq tablet*/
 @media screen and (min-width: 600px) {
-  .carousel-caption h1 {
+  .carousel-caption .tit-carousel {
     font-size: 45px;
+  }
+  .descripcion {
+    display: block;
   }
   .text-vision-mision {
     flex-direction: row;
@@ -355,7 +362,7 @@ h3 {
 }
 /*mq desktop*/
 @media screen and (min-width: 1024px) {
-  .carousel-caption h1 {
+  .carousel-caption .tit-carousel {
     font-size: 65px;
   }
   main div ul {
